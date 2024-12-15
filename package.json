@@ -1,0 +1,9 @@
+{
+  "scripts": {
+  "watch" : "npx tailwindcss -i ./src/assests/css/style.css -o ./src/main.css --watch",
+  "build" : "npx tailwindcss -i ./src/assests/css/style.css -o ./src/main.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
